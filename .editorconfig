@@ -1,0 +1,14 @@
+root = true
+
+[*.{css, js}]
+indent_style = space
+
+[*.{java, php}]
+indent_style = tab
+
+
+[*]
+charset = utf-8
+tab_width = 4
+insert_final_newline = false
+trim_trailing_whitespace = true

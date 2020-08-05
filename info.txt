@@ -1,0 +1,8 @@
+MVC
+Model: coração da aplicação, regras de negócio, entidades, camada de acesso a dados.
+View: responsável por renderizar sua resposta, javascript, css, html template engine.
+Controller: faz o intermédio de todo o fluxo, desde pedir ao model informações da base de dados até trabalhar as informações e jogar na view.
+
+MVC vs Prédio -> quando vai entregar algo no prédio, primeiro encontra a recepicionista, que é o front controller. Podem consultar um metadado, onde tem os mapeamentos das rotas. A pessoa que leva o papel até o destino é o papel do controller para trazer a resposta
+
+Requisição sempre chega no controller e ele direciona para onde ir, pode ser somente o view ou view + model
