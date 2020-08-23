@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/template.css">
-    <title>In 'n Out</title>
+    <title>In N' Out</title>
 </head>
 <body>
     <header class="header">
@@ -19,13 +19,15 @@
             <span class="font-weight-light">Out</span>
             <i class="icofont-runner-alt-1 ml-2"></i>
         </div>
-        <div class="menu-toggle mx3">
+        <div class="menu-toggle mx-3">
             <i class="icofont-navigation-menu"></i>
         </div>
         <div class="spacer"></div>
         <div class="dropdown">
             <div class="dropdown-button">
-                <img class="avatar" src="<?= "http://www.gravatar.com/avatar.php?gravatar_id=" . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user">
+                <img class="avatar" 
+                    src="<?= "http://www.gravatar.com/avatar.php?gravatar_id="
+                    . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user">
                 <span class="ml-3">
                     <?= $_SESSION['user']->name ?>
                 </span>
